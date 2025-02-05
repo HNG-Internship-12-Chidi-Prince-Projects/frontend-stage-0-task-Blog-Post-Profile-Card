@@ -1,0 +1,35 @@
+<!--code by Dev-X (chidi prince) for HNG12 stage 0 task -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <link rel="stylesheet" href="/components/styles/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <img src="https://res.cloudinary.com/dqtyu2frf/image/upload/v1738740078/ED__CFT_8961_k4ungd.jpg" alt="Profile Picture" data-testid="profilePicture">
+    
+        <div class="text-content">
+            <h2 data-testid="fullName">Chidi Prince</h2>
+            <h3 data-testid="jobTitle">Fullstack Web Developer</h3>
+            <p data-testid="shortBio" id="shortbio">Hi, im Chidi AKA Dev-X, a web developer with a love for creating beautiful user experiences. <span style="font-size: 10px; color: yellowgreen; cursor: pointer;" onclick="readmore()"><i> Read more</i></span></p>
+            <p data-testid="currentLocation">Lagos, Nigeria</p>
+            <p data-testid="emailAddress">Princegee408@gmail.com || Prince@mail.chidiprince.com</p>
+            <div class="social-links" data-testid="socialLinks">
+                <a href="https://github.com/prince-chidi" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+            <p data-testid="currentTimeUTC">Time: <span id="utc-time"></span></p>
+        </div>
+    </div>
+    
+
+    <script src="/components/scripts/app.js"></script>
+</body>
+</html>

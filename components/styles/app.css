@@ -1,0 +1,96 @@
+/*code by Dev-X (chidi prince) for HNG12 stage 0 task */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://res.cloudinary.com/dqtyu2frf/image/upload/v1738785703/altumcode-ZGyaL6QL7VE-unsplash_xqe0nu.jpg") no-repeat center center/cover;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(7px) !important;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    color: #ffffff;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 80%;
+    }
+}
+
+@media (min-width: 601px){
+    .card {
+         width: 65%;
+         border-radius: 20px;
+         position: relative;
+         margin-left: 5%;
+         margin-right: auto;
+         height: 60%;
+         min-width: 650px;
+         display: flex;
+         align-items: center;
+         gap: 25px; 
+         padding: 30px;
+         
+    } 
+ 
+    img {
+         width: 250px;
+         height: 250px;
+         border-radius: 50%;
+         flex-shrink: 0; 
+    }
+    
+    #shortbio{
+      border-left: 2px solid yellowgreen;
+      padding-left: 9px;
+      margin-bottom: 20px;
+    }
+
+    .text-content {
+         flex: 1; 
+         text-align: left;
+    }
+ 
+    h2 {
+         font-size: 32px;
+         font-weight: 700; 
+         position: relative;
+         top: 10px;
+    }
+ 
+    h3 {
+         font-size: 20px;
+         font-weight: 500;
+    }
+ 
+    p {
+         font-size: 16px;
+         margin: 5px 0;
+    }
+ }
+ 
